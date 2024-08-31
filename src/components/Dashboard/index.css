@@ -1,0 +1,50 @@
+.dashbaord-page{
+    width: calc(100vw - 220px);
+    display: flex;
+    flex-direction: column;
+    h1{
+        width: 160px;
+        height: 30px;
+        font-size: 16px;
+        text-align: center;
+        color: #b172eb;
+        margin-left: 8px;
+        font-weight: 500;
+        background-color: #fff;
+        border-radius: 4px;
+    }
+    .linechart-container{
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        width: 380px;
+        margin: 10px;
+        border-radius: 4px;
+        padding-left: 4px;
+    }
+    .piecahrt-container{
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        width: 380px;
+        margin-left: 10px;
+        border-radius: 4px;
+        padding-left: 4px;
+        margin: 10px;
+    }
+}
+.charts-container{
+    width: 100%;
+    height: calc(100vh - 140px);
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+@media screen and (max-width:650px) {
+    .dashbaord-page{
+        width: calc(100vw - 40px);
+    }
+}
